@@ -1,0 +1,208 @@
+ /* issue no1 about button*/ 
+ /*check css hover conflict/ animation glitch solutions */
+body{
+    display: flex;
+    flex-direction: column;
+    box-sizing: 15rem; /*just added this */ 
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(44, 44, 44);
+}
+
+header {
+    background-color: rgb(44, 44, 44);
+    background-position: center;
+    height: 30px;
+    padding: 20px;
+    text-align: center;
+    
+}
+
+header .info:hover {
+    background-color: grey;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-top: 0.5rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    box-sizing: content-box;
+
+}
+
+.about{
+    margin-top: 5rem;
+    color: white;
+    text-align: center;
+}
+
+header .tutorial a:hover {
+    background-color: gray;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.YT-tutorial {
+    color: white;
+    margin-top: 100px;
+    
+}
+
+header .index a:hover {
+    background-color: grey;
+    align-items: center;
+    padding: 1rem 2rem;
+    margin-top: 3rem;
+    font-size: 1rem;
+    text-decoration: none;
+    border-radius: 1rem;
+    text-align: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    margin-top: 40px;
+}
+
+section {
+    text-align: center;
+}
+
+
+li{
+    display: inline-block;
+    margin-right: 60px;
+}
+
+h1 {
+    color: white;
+}
+section.features {
+    margin-top: 100px;
+    color: white;
+}
+
+strong {
+    text-decoration: underline;
+    font-size: large;
+}
+.function{
+    align-items: center;
+    perspective: none;
+    height: 400px;
+    width: 400px;
+}
+
+.author{
+    color: white;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+.download-icon{
+    height: 30px;
+    width: 50px;
+    padding-left: 1rem;
+    text-align: center;
+}
+.download-btn:hover {
+    background-color: rgb(185, 120, 0);
+}
+
+.download-btn1{
+    align-items: center;
+    background-color: rgb(255, 145, 0);
+    color: rgb(44, 44, 44);
+    padding: 1rem 2rem;
+    margin-top: 6rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: 2rem;
+    text-align: center;
+}
+.download-title1{
+    color: white;
+    padding: 3rem;
+    text-align: center;
+}
+.download-btn2{
+    background-color: rgb(255, 145, 0);
+    color: rgb(44, 44, 44);
+    padding: 1rem 2rem;
+    margin-top: 6rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: 2rem;
+}
+.download-title2{
+    color: white;
+    padding: 3rem;
+    text-align: center;
+}
+.download-btn3{
+    background-color: rgb(255, 145, 0);
+    color: rgb(44, 44, 44);
+    padding: 1rem 2rem;
+    margin-top: 6rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: 2rem;
+}
+.download-title3{
+    color: white;
+    padding: 3rem;
+    text-align: center;
+}
+.download-btn4{
+    background-color: rgb(255, 145, 0);
+    color: rgb(44, 44, 44);
+    padding: 1rem 2rem;
+    margin-top: 6rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: 2rem;
+}
+.download-title4{
+    color: white;
+    padding: 3rem;
+    text-align: center;
+}
+.download-btn5{
+    background-color: rgb(255, 145, 0);
+    color: rgb(44, 44, 44);
+    padding: 1rem 2rem;
+    margin-top: 6rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: 2rem;
+}
+.download-title5{
+    color: white;
+    padding: 3rem;
+    text-align: center;
+}
+.download-btn6{
+    background-color: rgb(255, 145, 0);
+    color: rgb(44, 44, 44);
+    padding: 1rem 2rem;
+    margin-top: 6rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: 2rem;
+}
+.download-title6{
+    color: white;
+    padding: 3rem;
+    text-align: center;
+}
+footer {
+    color: white;
+    margin: 100px;
+    padding: 10px 20px;
+    text-align: left;
+}
